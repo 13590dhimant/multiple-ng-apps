@@ -14,7 +14,7 @@ export class Product2Component implements OnInit {
 
   openExternal() {
     const url = window.origin + '/app2/view-report';
-    window.open(url, '_blank', 'width=500, height=500');
+    window.open(url, '_blank', 'width=500, height=500, top=10, left=10');
   }
 
 }
