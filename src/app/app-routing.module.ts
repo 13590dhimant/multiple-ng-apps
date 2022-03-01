@@ -5,7 +5,7 @@ import {App1SharedModule} from "../../projects/app1/src/app/app.module";
 
 const routes: Routes = [
   {
-    path: 'app1',
+    path: '',
     loadChildren: () => import('../../projects/app1/src/app/app.module').then(m => m.App1SharedModule)
   },
   {
